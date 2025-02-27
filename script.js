@@ -71,7 +71,7 @@ function takeCommand(message) {
   if (message.includes("hello") || message.includes("hey")) {
     speak("Hello Sir, what can I help you with?");
   } else if (message.includes("who are you")) {
-    speak("I am your AbhiTech assistant, created by AbhiTech.");
+    speak("I am Zia, created by AbhiTech.");
   } else if (message.includes("open youtube")) {
     speak("Opening YouTube...");
     window.open("https://youtube.com/", "_blank");
