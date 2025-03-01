@@ -72,6 +72,16 @@ function takeCommand(message) {
     speak("Hello Sir, what can I help you with?");
   } else if (message.includes("who are you")) {
     speak("I am Zia, created by AbhiTech.");
+  } else if (message.includes("when will my friend get married")) {
+    speak("Never, woh bokachoda single maregaa");
+  } else if (message.includes("what is my girlfriend name")) {
+    speak("khushi, I love u");
+  } else if (message.includes("how do i look")) {
+    speak("ekdum bekar");
+  } else if (message.includes("which is the best word in world")) {
+    speak(
+      "Jai Shree Ram jai shree mahakaal bolo hara hara mahadev om lakshmi narayana namah"
+    );
   } else if (message.includes("open youtube")) {
     speak("Opening YouTube...");
     window.open("https://youtube.com/", "_blank");
