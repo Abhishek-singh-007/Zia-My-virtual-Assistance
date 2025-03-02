@@ -71,11 +71,15 @@ function takeCommand(message) {
   if (message.includes("hello") || message.includes("hey")) {
     speak("Hello Sir, what can I help you with?");
   } else if (message.includes("who are you")) {
-    speak("I am Zia, created by AbhiTech.");
+    speak("I am Zia, created by AbhiTech Technology.");
   } else if (message.includes("when will my friend get married")) {
     speak("Never, woh bokachoda single maregaa");
   } else if (message.includes("what is my girlfriend name")) {
-    speak("khushi, I love u");
+    speak("Imiganation");
+  } else if (message.includes("what is luck")) {
+    speak("All the best");
+  } else if (message.includes("am i good")) {
+    speak("yes sir you are so good.");
   } else if (message.includes("how do i look")) {
     speak("ekdum bekar");
   } else if (message.includes("which is the best word in world")) {
